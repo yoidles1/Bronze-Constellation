@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  The following are keys into the preferences and should not be translated. -->
+    <string-array name="sensor_speed_values">
+        <item translation_description="DO NOT TRANSLATE">SLOW</item>
+        <item translation_description="DO NOT TRANSLATE">STANDARD</item>
+        <item translation_description="DO NOT TRANSLATE">FAST</item>
+    </string-array>
+    <string-array name="sensor_damping_values">
+        <item translation_description="DO NOT TRANSLATE">STANDARD</item>
+        <item translation_description="DO NOT TRANSLATE">HIGH</item>
+    </string-array>
+    <string-array name="default_earthmarks_values">
+        <item translation_description="DO NOT TRANSLATE">San Diego, CA</item>
+        <item translation_description="DO NOT TRANSLATE">San Francisco, CA</item>
+        <item translation_description="DO NOT TRANSLATE">Seattle, WA</item>
+        <item translation_description="DO NOT TRANSLATE">Mexico City, Mexico</item>
+        <item translation_description="DO NOT TRANSLATE">Los Angeles, CA</item>
+        <item translation_description="DO NOT TRANSLATE">Tijuana, Mexico</item>
+        <item translation_description="DO NOT TRANSLATE">Boston, MA</item>
+        <item translation_description="DO NOT TRANSLATE">Rio De Janeiro, Brazil</item>
+        <item translation_description="DO NOT TRANSLATE">Timbuktu</item>
+        <item translation_description="DO NOT TRANSLATE">Paris</item>
+        <item translation_description="DO NOT TRANSLATE">Washington, D.C.</item>
+        <item translation_description="DO NOT TRANSLATE">Phoenix, AZ</item>
+        <item translation_description="DO NOT TRANSLATE">Fort Sumter</item>
+        <item translation_description="DO NOT TRANSLATE">Mount Everest</item>
+    </string-array>
+</resources>

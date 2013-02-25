@@ -1,0 +1,20 @@
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes.dex : \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/BuildConfig.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$anim.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$array.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$attr.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$color.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$dimen.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$drawable.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$id.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$layout.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$menu.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$raw.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$string.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$style.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$styleable.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R$xml.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/classes/com/google/android/stardroid/R.class \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/dexedLibs/annotations-b45c8eb7b02e4b9367e6b317eb47bce7.jar \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/dexedLibs/libGoogleAnalytics-4564e0fdf93012b2074fc7ff5429ece9.jar \
+/Users/Berge/Documents/StarDroid/svn/app/~/Documents/StarDroid/svn/app/dexedLibs/protobuf-java-2.3.0-lite-a086f34aaa80973a39146165c23ae733.jar \

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="popular_date_examples">
+        <item translation_description="The user's current time">Now</item>
+        <item>Next evening sunset</item>
+        <item>Next morning sunrise</item>
+        <item>Next full moon</item>
+        <item>Apollo 11 moon landing</item>
+        <item>Solar eclipse of May 29, 1919</item>
+    </string-array>
+    <string-array name="sensor_speed">
+        <item translation_description="Slow sensor speed">Slow</item>
+        <item translation_description="Normal sensor speed">Medium</item>
+        <item translation_description="Fast sensor speed">Fast</item>
+    </string-array>
+    <string-array name="sensor_damping">
+        <item translation_description="Standard sensor damping factor">Standard</item>
+        <item translation_description="High sensor damping factor">High</item>
+    </string-array>
+    <string-array name="default_earthmarks">
+        <item translation_description="Choose cities and landmarks for default location">San Diego, CA</item>
+        <item translation_description="Choose cities and landmarks for default location">San Francisco, CA</item>
+        <item translation_description="Choose cities and landmarks for default location">Seattle, WA</item>
+        <item translation_description="Choose cities and landmarks for default location">Mexico City, Mexico</item>
+        <item translation_description="Choose cities and landmarks for default location">Los Angeles, CA</item>
+        <item translation_description="Choose cities and landmarks for default location">Tijuana, Mexico</item>
+        <item translation_description="Choose cities and landmarks for default location">Boston, MA</item>
+        <item translation_description="Choose cities and landmarks for default location">Rio De Janeiro, Brazil</item>
+        <item translation_description="Choose cities and landmarks for default location">Timbuktu</item>
+        <item translation_description="Choose cities and landmarks for default location">Paris</item>
+        <item translation_description="Choose cities and landmarks for default location">Washington, D.C.</item>
+        <item translation_description="Choose cities and landmarks for default location">Phoenix, AZ</item>
+        <item translation_description="Choose cities and landmarks for default location">Fort Sumter</item>
+        <item translation_description="Choose cities and landmarks for default location">Mount Everest</item>
+    </string-array>
+</resources>

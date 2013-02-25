@@ -1,0 +1,44 @@
+# view res/layout/skyrenderer.xml #generated:16
+-keep class android.opengl.GLSurfaceView { <init>(...); }
+
+# view res/layout/tos_view.xml #generated:7
+-keep class android.webkit.WebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.google.android.stardroid.StardroidApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.google.android.stardroid.activities.ControlPanelActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.google.android.stardroid.activities.DynamicStarMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.google.android.stardroid.activities.EditSettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.google.android.stardroid.activities.ImageDisplayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.google.android.stardroid.activities.ImageGalleryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.google.android.stardroid.activities.SplashScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.google.android.stardroid.search.SearchTermsProvider { <init>(...); }
+
+# view res/layout/skyrenderer.xml #generated:179
+# view res/layout/skyrenderer.xml #generated:84
+-keep class com.google.android.stardroid.views.ButtonLayerView { <init>(...); }
+
+# view res/layout/skyrenderer.xml #generated:102
+# view res/layout/skyrenderer.xml #generated:112
+# view res/layout/skyrenderer.xml #generated:122
+# view res/layout/skyrenderer.xml #generated:132
+# view res/layout/skyrenderer.xml #generated:142
+# view res/layout/skyrenderer.xml #generated:152
+# view res/layout/skyrenderer.xml #generated:186
+# view res/layout/skyrenderer.xml #generated:92
+-keep class com.google.android.stardroid.views.PreferencesButton { <init>(...); }
+
