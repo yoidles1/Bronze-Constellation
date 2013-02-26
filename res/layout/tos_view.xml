@@ -14,7 +14,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Here is brooks text… bla bla bla"
+        android:text="Here is brooks text… bla bla bla ra"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
   </LinearLayout>
