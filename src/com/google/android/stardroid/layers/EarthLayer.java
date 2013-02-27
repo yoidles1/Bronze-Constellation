@@ -208,7 +208,7 @@ public class EarthLayer extends AbstractFileBasedLayer {
 	      markNames.add("#4 Bronze Crayon in Denver, CO");
 	      markNames.add("#5 Bronze Crayon in Topeka, KS");
 	      markNames.add("#6 Bronze Crayon in Columbia, SC");*/
-          EarthMark viewpoint = earthmarks.get(0);
+          EarthMark viewpoint = earthmarks.get(5);
           model.setEarthMarkViewpointName(viewpoint.getName());
 		  ((AstronomerModelImpl)model).setEarthMarks(earthmarks);
 		  ((AstronomerModelImpl)model).setMarkNames(markNames);
