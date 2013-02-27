@@ -424,7 +424,8 @@ public class SkyRenderer implements GLSurfaceView.Renderer {
 }
 
 interface RenderStateInterface {
-  public GeocentricCoordinates getCameraPos();
+  public float mSensor = 0;
+public GeocentricCoordinates getCameraPos();
   public GeocentricCoordinates getLookDir();
   public GeocentricCoordinates getUpDir();
   public float getRadiusOfView();
