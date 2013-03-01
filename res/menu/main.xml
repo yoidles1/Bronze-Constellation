@@ -24,7 +24,6 @@
 
 	<item android:id="@+id/menu_item_gallery" android:orderInCategory="4"
 		android:title="@string/menu_gallery" android:icon="@android:drawable/ic_menu_gallery"
-		android:enabled="false" android:visible="false" />
 		android:enabled="true" android:visible="true" />
 
 	<item android:id="@+id/menu_item_time" android:orderInCategory="5"
