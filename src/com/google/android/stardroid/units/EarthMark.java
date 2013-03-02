@@ -33,7 +33,7 @@ public GeocentricCoordinates findPointOnUnitSphereToViewMark(Date utc, EarthMark
 	Vector3 toGeo = GeocentricCoordinates.getInstance(toRaDec);
 	Vector3 minusFromGeo = Geometry.scaleVector(fromGeo, -1);
 //	Vector3 diff = Geometry.addVectors(toGeo, minusFromGeo);
-	Vector3 diff = Geometry.addVectors(toGeo,  Geometry.scaleVector(minusFromGeo,(float) -2.0)); //Should put the viewport outside the earth 2x diameter opposite of the North West hemisphere
+	Vector3 diff = Geometry.addVectors(toGeo,  Geometry.scaleVector(minusFromGeo,(float) -1.8)); //Should put the viewport outside the earth 2x diameter opposite of the North West hemisphere
 	diff.normalize();
 //	Log.d("RLP", "RLP normalized diff" + diff.toString());
 	mark.setStarttime(System.currentTimeMillis());
