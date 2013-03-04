@@ -3,7 +3,7 @@
     android:id="@+id/splash"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:scaleType="centerCrop"
+    android:scaleType="fitCenter"
     android:src="@drawable/bronze_big_image"
     android:theme="@android:style/Theme.Black" android:contentDescription="TODO"/>
 
