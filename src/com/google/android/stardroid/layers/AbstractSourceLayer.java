@@ -49,7 +49,7 @@ public abstract class AbstractSourceLayer extends AbstractLayer {
   private final ArrayList<TextSource> textSources = new ArrayList<TextSource>();
   private final ArrayList<ImageSource> imageSources = new ArrayList<ImageSource>();
   private final ArrayList<PointSource> pointSources = new ArrayList<PointSource>();
-  private final ArrayList<LineSource> lineSources = new ArrayList<LineSource>();
+  public  static final ArrayList<LineSource> lineSources = new ArrayList<LineSource>();
   private final ArrayList<AstronomicalSource> astroSources = new ArrayList<AstronomicalSource>();
 
   private HashMap<String, SearchResult> searchIndex = new HashMap<String, SearchResult>();

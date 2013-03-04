@@ -105,7 +105,7 @@ public class EarthLayer extends AbstractFileBasedLayer {
 	      EarthSource.model = model;
 	      myContext = ((AstronomerModelImpl)model).getMainContext();
 	      
-	      // Context.MODE_WORLD_WRITEABLE = 2; I want to do this in case I want to make the EarthMarkPreferences file writable from the PC (would it be in any case?)
+	      // Context.MODE_WORLD_WRITEABLE = 2; I want to do this in case I want to make the EarthMarkPregerences file writable from the PC (would it be in any case?)
 	      earthMarkPreferences = myContext.getSharedPreferences(PREFS_NAME, 2);
 	      editor = earthMarkPreferences.edit();
 	      List<Address> addresses = new ArrayList<Address>();
@@ -131,7 +131,7 @@ public class EarthLayer extends AbstractFileBasedLayer {
 	    	 makeInitialEarthMarkNames();
 	       //   }
 	     
-	     //makeListFromPreferences(markNames);
+	     makeListFromPreferences(markNames);
 	      
 	     for (String markName: markNames) {
 	          try {
@@ -151,64 +151,19 @@ public class EarthLayer extends AbstractFileBasedLayer {
 	           LatLong latlong = new LatLong(latitude, longitude);
 	           earthmarks.add(new EarthMark(markName, latlong));
 	      }
-	     earthmarks.add(new EarthMark("1", new LatLong( 20.87866351,-156.4557744)));
-	     earthmarks.add(new EarthMark("2", new LatLong( 21.39351424922648, -157.7421590196418)));
-	     earthmarks.add(new EarthMark("3", new LatLong( 44.01752302922384, -107.944641401221)));
-	     earthmarks.add(new EarthMark("4", new LatLong( 39.75505525,-105.0243276)));
-	     earthmarks.add(new EarthMark("5", new LatLong(39.05059567,-95.72568486)));
-	     earthmarks.add(new EarthMark("6", new LatLong( 33.99815615269141, -81.01713030535551)));
-	     earthmarks.add(new EarthMark("7", new LatLong( 38.901831,-99.31793)));
-	     earthmarks.add(new EarthMark("8", new LatLong(39.40917124,-81.43013987)));
-	     earthmarks.add(new EarthMark("9", new LatLong(36.04184726,-115.1716433)));
-	     earthmarks.add(new EarthMark("10", new LatLong(41.42352676,-81.73923164)));
-	     earthmarks.add(new EarthMark("11", new LatLong(35.61987302,-82.55487666)));
-	     earthmarks.add(new EarthMark("12", new LatLong(39.86911213,-84.88569952)));
-	     earthmarks.add(new EarthMark("13", new LatLong(47.66462934,-122.3147947)));
-	     earthmarks.add(new EarthMark("14", new LatLong(35.50069666,-80.86036361)));
-	     earthmarks.add(new EarthMark("15", new LatLong(45.99775026,-112.5378007)));
-	     earthmarks.add(new EarthMark("16", new LatLong(43.650895,-93.36146577)));
-	     earthmarks.add(new EarthMark("17", new LatLong(48.84669675,-122.5930136)));
-	     earthmarks.add(new EarthMark("18", new LatLong(49.32360679,-123.122304)));
-	     earthmarks.add(new EarthMark("19", new LatLong(49.72115923,-123.149291)));
-	     earthmarks.add(new EarthMark("20", new LatLong(39.62767071,-106.062851)));
-	     earthmarks.add(new EarthMark("21", new LatLong(45.51983189,-122.6788756)));
-	     earthmarks.add(new EarthMark("22", new LatLong(39.76963034,-104.898627)));
-	     earthmarks.add(new EarthMark("23", new LatLong(49.28222376,-123.1077451)));
-	     earthmarks.add(new EarthMark("24", new LatLong(29.67623146,-95.28981172)));
-	     earthmarks.add(new EarthMark("25", new LatLong(39.7160165,-82.57948268)));
-	     earthmarks.add(new EarthMark("26", new LatLong(30.419425,-97.747846)));
-	     earthmarks.add(new EarthMark("27", new LatLong(39.35434557,-82.97494981)));
-	     earthmarks.add(new EarthMark("28", new LatLong(34.12809288,-116.3951846)));
-	     earthmarks.add(new EarthMark("29", new LatLong(37.63857384,-118.9654085)));
-	     earthmarks.add(new EarthMark("30", new LatLong(33.98426422,-118.4432829)));
-	     
-//	     markNames.add("Walmart Kahului, HI");
-//	     markNames.add("Safeway Denver, CO");
-//	     markNames.add("Hays, KS 67601");
-//	     
-//	     
-//	     markNames.add("x");
-//	     markNames.add("xx");
-//	     markNames.add("xxx");
-//	     markNames.add("xxxx");
-//	     markNames.add("xxxxx");
-//	     markNames.add("xxxxxx");
-//	     markNames.add("xxxxxxx");
-	     
-	   /*   earthmarks.add(new EarthMark("#1 Bronze Crayon in Kihului, HI", new LatLong(-156.4557743814053,20.87866351101885)));
-	      earthmarks.add(new EarthMark("#2 Bronze Crayon in Kailua, HI", new LatLong(-157.7421590196418,21.39351424922648)));
-	      earthmarks.add(new EarthMark("#3 Bronze Crayon in Worland, WY", new LatLong(-107.944641401221,44.01752302922384)));
-	      earthmarks.add(new EarthMark("#4 Bronze Crayon in Denver, CO", new LatLong(-105.0243275884506,39.75505524857422)));
-	      earthmarks.add(new EarthMark("#5 Bronze Crayon in Topeka, KS", new LatLong(-95.72568485927653,39.05059567097005)));
-	      earthmarks.add(new EarthMark("#6 Bronze Crayon in Columbia, SC", new LatLong(-81.01713030535551,33.99815615269141)));
-	      
-	      markNames.add("#1 Bronze Crayon in Kihului, HI"); //These markNames are items to be shown in the Create Cities and Landmarks menu list
-	      markNames.add("#2 Bronze Crayon in Kailua, HI");
-	      markNames.add("#3 Bronze Crayon in Worland, WY");
-	      markNames.add("#4 Bronze Crayon in Denver, CO");
-	      markNames.add("#5 Bronze Crayon in Topeka, KS");
-	      markNames.add("#6 Bronze Crayon in Columbia, SC");*/
-          EarthMark viewpoint = earthmarks.get(5);
+	      earthmarks.add(new EarthMark("NP - Earth", new LatLong(90, 0)));
+	      earthmarks.add(new EarthMark("SP - Earth", new LatLong(-90, 0)));
+	      earthmarks.add(new EarthMark("Lat 0, Long 0", new LatLong(0, 0)));
+	      earthmarks.add(new EarthMark("Lat 0, Long 90", new LatLong(0, 90)));
+	      earthmarks.add(new EarthMark("Lat 0, Long 180", new LatLong(0, 180)));
+	      earthmarks.add(new EarthMark("Lat 0, Long -90", new LatLong(0, 270)));
+	      markNames.add("NP - Earth");
+	      markNames.add("SP - Earth");
+	      markNames.add("Lat 0, Long 0");
+	      markNames.add("Lat 0, Long 90");
+	      markNames.add("Lat 0, Long 180");
+	      markNames.add("Lat 0, Long -90");
+          EarthMark viewpoint = earthmarks.get(0);
           model.setEarthMarkViewpointName(viewpoint.getName());
 		  ((AstronomerModelImpl)model).setEarthMarks(earthmarks);
 		  ((AstronomerModelImpl)model).setMarkNames(markNames);
