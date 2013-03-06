@@ -47,16 +47,16 @@
     <activity android:name="com.google.android.stardroid.activities.EditSettingsActivity"/>
     <activity android:name="com.google.android.stardroid.activities.ImageGalleryActivity"
       android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-      android:screenOrientation="landscape"/>
+      android:screenOrientation="user"/>
     <activity android:name="com.google.android.stardroid.activities.ImageDisplayActivity"
-      android:screenOrientation="landscape"
+      android:screenOrientation="user"
       android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
     <!-- Provides search suggestions. -->
     <!-- TODO(johntaylor): What does syncable do? -->
     <provider android:name="com.google.android.stardroid.search.SearchTermsProvider"
       android:authorities="com.google.android.stardroid.searchterms"
       android:syncable="false"/>
-    <activity android:name="com.google.android.stardroid.activities.ControlPanelActivity"/>
+    <activity android:name="com.google.android.stardroid.activities.ControlPanelActivity" android:screenOrientation="user"/>
 
 </application>
     <supports-screens
