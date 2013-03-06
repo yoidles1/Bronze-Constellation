@@ -323,7 +323,8 @@ public class LabelObjectManager extends RendererObjectManager {
     
     gl.glTranslatef(screenPos.x, screenPos.y, 0);
 //    gl.glRotatef(MathUtil.RADIANS_TO_DEGREES * getRenderState().getUpAngle(), 0, 0, -1);
-    gl.glRotatef(MathUtil.RADIANS_TO_DEGREES * (float) 1.55, 0, 0, -1);
+//    gl.glRotatef(MathUtil.RADIANS_TO_DEGREES * (float) 1.55, 0, 0, -1); // For keeping text at landscape orientation, but not Activity
+  gl.glRotatef(MathUtil.RADIANS_TO_DEGREES * (float) 0, 0, 0, -1); // For manually requiring landscape Activity orientation
     gl.glScalef(label.getWidthInPixels(), label.getHeightInPixels(), 1);
    
     gl.glVertexPointer(2, GL10.GL_FIXED, 0, mQuadBuffer);

@@ -34,7 +34,7 @@
       android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
       android:label="@string/app_name"
       android:launchMode="singleTask"
-      android:screenOrientation="nosensor"
+      android:screenOrientation="user"
       android:configChanges="keyboardHidden|orientation">
       <intent-filter>
         <action android:name="android.intent.action.SEARCH" />
@@ -46,9 +46,10 @@
 
     <activity android:name="com.google.android.stardroid.activities.EditSettingsActivity"/>
     <activity android:name="com.google.android.stardroid.activities.ImageGalleryActivity"
-      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+      android:screenOrientation="landscape"/>
     <activity android:name="com.google.android.stardroid.activities.ImageDisplayActivity"
-      android:screenOrientation="portrait"
+      android:screenOrientation="landscape"
       android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
     <!-- Provides search suggestions. -->
     <!-- TODO(johntaylor): What does syncable do? -->

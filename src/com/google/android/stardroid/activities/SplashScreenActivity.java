@@ -22,6 +22,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Animation.AnimationListener;
+import android.widget.Toast;
 
 import com.yoidles.android.bronze.R;
 import com.google.android.stardroid.util.Analytics;
@@ -84,6 +85,7 @@ public class SplashScreenActivity extends Activity {
     Log.d(TAG,"SplashScreen finish called");
     Intent intent = new Intent(this, DynamicStarMapActivity.class);
     startActivity(intent);
+    Toast.makeText(this, "Rotating All Constellations Into View", Toast.LENGTH_LONG).show();	   
     super.finish();
   }
 }

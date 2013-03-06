@@ -233,7 +233,7 @@ public class DynamicStarMapActivity extends Activity implements OnSharedPreferen
       doSearchWithIntent(intent);
     }
     Log.d(TAG, "-onCreate at " + System.currentTimeMillis());
-    Toast.makeText(this, "Loading Bronze Constellations", Toast.LENGTH_LONG).show();	   
+//    Toast.makeText(this, "Rotating Bronze Constellations Into View", Toast.LENGTH_LONG).show();	// Moved to SplashScreenActivity.   
   }
   
   @Override
