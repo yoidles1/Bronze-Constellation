@@ -45,8 +45,8 @@
     <!-- Just in case we decide to have such a layer for the 4/24 launch -->
     <string name="show_hubble_layer_pref">Hubble Images</string>
     <string name="malformed_loc_error">Latitude or longitude setting isn\'t a number.</string>
-    <string name="dialog_accept"  translation_description="accepting the licence agreement">I guess so</string>
-    <string name="dialog_decline" translation_description="declining the licence agreement">I\'m scared</string>
+    <string name="dialog_accept"  translation_description="accepting the licence agreement">I\'m Willing...</string>
+    <string name="dialog_decline" translation_description="declining the licence agreement">I\'m Scared...</string>
     <string name="menu_help"  translation_description="menu item to show \'Help\' box">Help</string>
     <string name="help_dialog_title">Help for Bronze Constellation</string>
     <string name="eula_dialog_title">A bit about Bronze Constellations</string>
