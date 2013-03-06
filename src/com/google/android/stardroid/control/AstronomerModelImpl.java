@@ -30,6 +30,7 @@ import android.location.Geocoder;
 import android.util.Log;
 
 import com.google.android.stardroid.ApplicationConstants;
+import com.google.android.stardroid.source.LineSource;
 import com.google.android.stardroid.source.PointSource;
 import com.google.android.stardroid.source.TextSource;
 import com.google.android.stardroid.units.EarthMark;
@@ -123,6 +124,7 @@ public class AstronomerModelImpl implements AstronomerModel {
   // TODO RLP move this when we have built the resource for EarthMarks
   private ArrayList<TextSource> earthMarkTextSources = new ArrayList<TextSource>();  // RLP
   private ArrayList<PointSource> earthMarkPointSources = new ArrayList<PointSource>();  // RLP
+  private ArrayList<LineSource> earthMarkLineSources = new ArrayList<LineSource>();  // RLP
   private ArrayList<EarthMark> earthMarks = new ArrayList<EarthMark>();  // RLP
   private ArrayList<String> markNames;
   private String earthmarkViewpointName;
@@ -370,8 +372,16 @@ public ArrayList<PointSource> getEarthMarkPointSources() {
 	return earthMarkPointSources;
 }
   
+public ArrayList<LineSource> getEarthMarkLineSources() { 
+	return earthMarkLineSources;
+}
+  
 public void setEarthMarkPointSources(ArrayList<PointSource> earthMarkPointSources) {
 	this.earthMarkPointSources = earthMarkPointSources;
+}
+  
+public void setEarthMarkLineSources(ArrayList<LineSource> earthMarkLineSources) {
+	this.earthMarkLineSources = earthMarkLineSources;
 }
   
 public ArrayList<EarthMark> getEarthMarks() {

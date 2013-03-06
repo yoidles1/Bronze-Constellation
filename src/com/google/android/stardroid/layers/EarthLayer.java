@@ -32,6 +32,7 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 
 import com.yoidles.android.bronze.R;
+import com.google.android.stardroid.base.Lists;
 import com.google.android.stardroid.base.TimeConstants;
 import com.google.android.stardroid.control.AstronomerModel;
 import com.google.android.stardroid.control.AstronomerModelImpl;
@@ -39,9 +40,11 @@ import com.google.android.stardroid.renderer.RendererObjectManager.UpdateType;
 import com.google.android.stardroid.source.AbstractAstronomicalSource;
 import com.google.android.stardroid.source.AstronomicalSource;
 import com.google.android.stardroid.source.PointSource;
+import com.google.android.stardroid.source.LineSource;
 import com.google.android.stardroid.source.Sources;
 import com.google.android.stardroid.source.TextSource;
 import com.google.android.stardroid.source.impl.PointSourceImpl;
+import com.google.android.stardroid.source.impl.LineSourceImpl;
 import com.google.android.stardroid.source.impl.TextSourceImpl;
 import com.google.android.stardroid.units.EarthMark;
 import com.google.android.stardroid.units.GeocentricCoordinates;
@@ -56,10 +59,13 @@ import com.google.android.stardroid.units.Vector3;
  * @author John Taylor
  * @author modified by Ray Phoenix
  */
+
+
 public class EarthLayer extends AbstractFileBasedLayer {
 	  private final AstronomerModel model;
-	
-	public EarthLayer(AstronomerModel model, AssetManager assetManager, Resources resources) {
+	  private static final int LINE_COLOR = Color.argb(120, 86, 176, 245);
+
+	  public EarthLayer(AstronomerModel model, AssetManager assetManager, Resources resources) {
 	  	super(assetManager, resources, "earth.binary", true);
 	    this.model = model;
   }
@@ -94,6 +100,7 @@ public class EarthLayer extends AbstractFileBasedLayer {
 	    private static final long UPDATE_FREQ_MS = 1L * TimeConstants.MILLISECONDS_PER_SECOND;
 	    private static final ArrayList<String> markNames = new ArrayList<String>(); 
 	    private static final ArrayList<TextSource> textSources = new ArrayList<TextSource>();
+	    private static final ArrayList<LineSource> lineSources = new ArrayList<LineSource>();
 	    private static final ArrayList<PointSource> pointSources = new ArrayList<PointSource>();
     	final static String PREFS_NAME = "EarthMarkPreferences";
     	static int largestIndexIntoEarthMarks = 0;
@@ -229,10 +236,32 @@ public class EarthLayer extends AbstractFileBasedLayer {
 			    }
 			  	Log.d("RLP", "RLP mark = " + targetMark.toString());
 			}
+		  	makeAllLines();
 			((AstronomerModelImpl)model).setEarthMarkTextSources(textSources);
 			((AstronomerModelImpl)model).setEarthMarkPointSources(pointSources);
+			((AstronomerModelImpl)model).setEarthMarkLineSources(lineSources);		
 		}
+		public static void makeAllLines() {
+			makeLines(1,2,29,1);          //      Head and neck (a narrow triangle)
+			makeLines(29,28,9,29);     //      Collar (etc.)
+			makeLines(29,21,13,17,23,18,19);//Shoulder
+			makeLines(18,15,3,20,22);     //      Arm
+			makeLines(28,26,24);          //      Other arm
+			makeLines(28,7,5,19);         //      Torso
+			makeLines(11,14);             //      Foot?
+			makeLines(8,10,12,25,27);     //      Other leg and  foot?
 
+        }
+
+		public static void makeLines(int ... indexes) {
+		    LineSourceImpl line = new LineSourceImpl(LINE_COLOR);
+		    for (int index: indexes) {
+				line.vertices.add(pointSources.get(index - 1).getLocation()); // watch for 0,1 indexing
+			}	
+			lineSources.add(line);
+		}
+		
+		
 		public static void updateSourcesForViewpoint(AstronomerModel model,
 					ArrayList<EarthMark> earthmarks, EarthMark viewpoint) {
 			int i = 0;
@@ -390,6 +419,10 @@ private void adjustLocationsForCurrentTime(int i, EarthMark toMark) {
 	      return pointSources;
 	    }
 
+	    @Override
+	    public List<? extends LineSource> getLines() {
+	      return lineSources;
+	    }
 	    public static void addToMarkNamesIfNew(String markName, double latitude, double longitude) {
 	    	if (nameIsNew(markName)) { 
 		    	largestIndexIntoEarthMarks++;
