@@ -191,8 +191,8 @@ public class DialogFactory {
   }
 
   /**
-   * Display the Mobile Terms of Service to the user.
-   */
+   * Display the Mobile Terms of Service to the user from a local file.
+  */
   private Dialog createTermsOfServiceDialog(boolean hideButtons) {
       View view = LayoutInflater.from(parentActivity).inflate(layout.tos_view, null);
       final WebView webView = (WebView) view.findViewById(id.webview);
@@ -211,13 +211,14 @@ public class DialogFactory {
           webView.requestFocus();
         }
       });
-      webView.loadUrl(String.valueOf("http://m.google.com/tospage"));
+      webView.loadUrl("file:///android_asset/aboutbronzeconstellation.html"); 
 
       AlertDialog tosDialog = null;
 
       if (!hideButtons) {
         tosDialog = new Builder(parentActivity)
-            .setTitle(string.menu_tos)
+            .setCancelable(false)
+        	.setTitle(string.menu_tos)
             .setView(view)
             .setPositiveButton(string.dialog_accept,
                 new DialogInterface.OnClickListener() {
@@ -251,7 +252,7 @@ public class DialogFactory {
               .create();
       }
       return tosDialog;
-  }
+  } 
 
   /**
    * Creates the time travel dialog.

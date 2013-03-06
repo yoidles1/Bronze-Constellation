@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:focusable="true"
+      android:focusableInTouchMode="true"
+      android:orientation="vertical" >
 
     <android.webkit.WebView
         android:id="@+id/webview"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:visibility="gone" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Here is brooks text… bla bla bla ra"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
 
   </LinearLayout>

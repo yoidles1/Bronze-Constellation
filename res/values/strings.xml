@@ -45,8 +45,8 @@
     <!-- Just in case we decide to have such a layer for the 4/24 launch -->
     <string name="show_hubble_layer_pref">Hubble Images</string>
     <string name="malformed_loc_error">Latitude or longitude setting isn\'t a number.</string>
-    <string name="dialog_accept"  translation_description="accepting the licence agreement">Accept</string>
-    <string name="dialog_decline" translation_description="declining the licence agreement">No Thanks</string>
+    <string name="dialog_accept"  translation_description="accepting the licence agreement">I guess so</string>
+    <string name="dialog_decline" translation_description="declining the licence agreement">I\'m scared</string>
     <string name="menu_help"  translation_description="menu item to show \'Help\' box">Help</string>
     <string name="help_dialog_title">Help for Bronze Constellation</string>
     <string name="eula_dialog_title">A bit about Bronze Constellations</string>
@@ -105,7 +105,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="gallery_image_search_btn">Find in sky</string>
     <string name="gallery_image_back_btn">Back to gallery</string>
-    <string name="hubble_image_gallery_title">Sky Map Hubble Gallery</string>
+    <string name="hubble_image_gallery_title">Bronze Constillation Gallery</string>
     <string name="hubble_image">Hubble Image</string><!--  TODO(johntaylor): currently unused -->
 
     <string name="search_target_found_message" translation_description="displayed when a search target has been located">You found:</string>
@@ -119,27 +119,27 @@
     <string name="mercury">Mercury</string>
     <string name="venus">Venus</string>
     <string name="earth">Earth</string>
-    <string name="mars">Mars</string>
-    <string name="jupiter">Jupiter</string>
-    <string name="saturn">Saturn</string>
-    <string name="uranus">Uranus</string>
-    <string name="neptune">Neptune</string>
-    <string name="pluto">Pluto</string>
+    <string name="mars">Fine Art For 50 Cents</string>
+    <string name="jupiter">At A Joe Biden Rally</string>
+    <string name="saturn">In Joshua Tree N.P.</string>
+    <string name="uranus">The Amazing Nathan Berger</string>
+    <string name="neptune">Lost Way On Venice Beach</string>
+    <string name="pluto">Preparing For Journey</string>
     <string name="crab_nebula" translation_description="hubble object">Crab Nebula</string>
     <string name="eagle_nebula" translation_description="hubble object">Eagle Nebula</string>
     <string name="andromeda_galaxy" translation_description="hubble object">Andromeda Galaxy</string>
-    <string name="orion_nebula" translation_description="hubble object">Orion Nebula</string>
+    <string name="orion_nebula" translation_description="hubble object">Levitating Mass In CA</string>
     <string name="whirlpool_galaxy" translation_description="hubble object">Whirlpool Galaxy</string>
     <string name="ring_nebula" translation_description="hubble object">Ring Nebula</string>
     <string name="pinwheel_galaxy" translation_description="hubble object">Pinwheel Galaxy</string>
     <string name="sombrero_galaxy" translation_description="hubble object">Sombrero Galaxy</string>
     <string name="hercules_gc" translation_description="hubble object">Hercules Globular Cluster</string>
     <string name="pleiades" translation_description="hubble object">Pleiades</string>
-    <string name="cats_eye_nebula" translation_description="hubble object">Cat\'s Eye Nebula</string>
-    <string name="omega_centauri" translation_description="hubble object">Omega Centauri Globular Cluster</string>
+    <string name="cats_eye_nebula" translation_description="hubble object">At A Bill Clinton Rally</string>
+    <string name="omega_centauri" translation_description="hubble object">Skiing In CA</string>
     <string name="v838_mon" translation_description="hubble object">V838 Monocerotis</string>
     <string name="sn1987a" translation_description="hubble object">Supernova 1987a</string>
-    <string name="hubble_deep_field" translation_description="hubble object">Hubble Deep Field</string>
+    <string name="hubble_deep_field" translation_description="hubble object">Our Android Savior</string>
     <string name="rho_oph" translation_description="hubble object">Rho Ophiuchus</string>
     <string name="menu_tos">About: Bronze Constellation</string>
     <!-- TODO(johntaylor): the following might be deleted in favor of an icon -->
@@ -269,7 +269,7 @@
     <string name="north_star" translation_description="Name of the North Star">North Star</string>
     <string name="pole_star" translation_description="Name of the (North) Pole Star">Pole Star</string>
 
-    <string name="m1" translation_description="Name of the Messier object M1">M1</string>
+    <string name="m1" translation_description="Name of the Messier object M1">Disguised In Minnesota</string>
     <string name="m2" translation_description="Name of the Messier object M2">M2</string>
     <string name="m3" translation_description="Name of the Messier object M3">M3</string>
     <string name="m4" translation_description="Name of the Messier object M4">M4</string>
@@ -281,10 +281,10 @@
     <string name="m10" translation_description="Name of the Messier object M10">M10</string>
     <string name="m11" translation_description="Name of the Messier object M11">M11</string>
     <string name="m12" translation_description="Name of the Messier object M12">M12</string>
-    <string name="m13" translation_description="Name of the Messier object M13">M13</string>
+    <string name="m13" translation_description="Name of the Messier object M13">Amongst Friends</string>
     <string name="m14" translation_description="Name of the Messier object M14">M14</string>
     <string name="m15" translation_description="Name of the Messier object M15">M15</string>
-    <string name="m16" translation_description="Name of the Messier object M16">M16</string>
+    <string name="m16" translation_description="Name of the Messier object M16">Morning In Montanta</string>
     <string name="m17" translation_description="Name of the Messier object M17">M17</string>
     <string name="m18" translation_description="Name of the Messier object M18">M18</string>
     <string name="m19" translation_description="Name of the Messier object M19">M19</string>
@@ -299,7 +299,7 @@
     <string name="m28" translation_description="Name of the Messier object M28">M28</string>
     <string name="m29" translation_description="Name of the Messier object M29">M29</string>
     <string name="m30" translation_description="Name of the Messier object M30">M30</string>
-    <string name="m31" translation_description="Name of the Messier object M31">M31</string>
+    <string name="m31" translation_description="Name of the Messier object M31">Pretendingt To Be A Skyscraper</string>
     <string name="m32" translation_description="Name of the Messier object M32">M32</string>
     <string name="m33" translation_description="Name of the Messier object M33">M33</string>
     <string name="m34" translation_description="Name of the Messier object M34">M34</string>
@@ -313,19 +313,19 @@
     <string name="m42" translation_description="Name of the Messier object M42">M42</string>
     <string name="m43" translation_description="Name of the Messier object M43">M43</string>
     <string name="m44" translation_description="Name of the Messier object M44">M44</string>
-    <string name="m45" translation_description="Name of the Messier object M45">M45</string>
+    <string name="m45" translation_description="Name of the Messier object M45">Travelling Internationally</string>
     <string name="m46" translation_description="Name of the Messier object M46">M46</string>
     <string name="m47" translation_description="Name of the Messier object M47">M47</string>
     <string name="m48" translation_description="Name of the Messier object M48">M48</string>
     <string name="m49" translation_description="Name of the Messier object M49">M49</string>
     <string name="m50" translation_description="Name of the Messier object M50">M50</string>
-    <string name="m51" translation_description="Name of the Messier object M51">M51</string>
+    <string name="m51" translation_description="Name of the Messier object M51">Gaping At Beetle Hill In CO</string>
     <string name="m52" translation_description="Name of the Messier object M52">M52</string>
     <string name="m53" translation_description="Name of the Messier object M53">M53</string>
     <string name="m54" translation_description="Name of the Messier object M54">M54</string>
     <string name="m55" translation_description="Name of the Messier object M55">M55</string>
     <string name="m56" translation_description="Name of the Messier object M56">M56</string>
-    <string name="m57" translation_description="Name of the Messier object M57">M57</string>
+    <string name="m57" translation_description="Name of the Messier object M57">Dreaming Of 90\'s In Portland</string>
     <string name="m58" translation_description="Name of the Messier object M58">M58</string>
     <string name="m59" translation_description="Name of the Messier object M59">M59</string>
     <string name="m60" translation_description="Name of the Messier object M60">M60</string>
@@ -369,10 +369,10 @@
     <string name="m98" translation_description="Name of the Messier object M98">M98</string>
     <string name="m99" translation_description="Name of the Messier object M99">M99</string>
     <string name="m100" translation_description="Name of the Messier object M100">M100</string>
-    <string name="m101" translation_description="Name of the Messier object M101">M101</string>
+    <string name="m101" translation_description="Name of the Messier object M101">Plastic Wrap = No Bronze</string>
     <string name="m102" translation_description="Name of the Messier object M102">M102</string>
     <string name="m103" translation_description="Name of the Messier object M103">M103</string>
-    <string name="m104" translation_description="Name of the Messier object M104">M104</string>
+    <string name="m104" translation_description="Name of the Messier object M104">Natural Disguise</string>
     <string name="m105" translation_description="Name of the Messier object M105">M105</string>
     <string name="m106" translation_description="Name of the Messier object M106">M106</string>
     <string name="m107" translation_description="Name of the Messier object M107">M107</string>
