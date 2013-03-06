@@ -105,7 +105,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="gallery_image_search_btn">Find in sky</string>
     <string name="gallery_image_back_btn">Back to gallery</string>
-    <string name="hubble_image_gallery_title">Bronze Constillation Gallery</string>
+    <string name="hubble_image_gallery_title">Lost Wax Gallery</string>
     <string name="hubble_image">Hubble Image</string><!--  TODO(johntaylor): currently unused -->
 
     <string name="search_target_found_message" translation_description="displayed when a search target has been located">You found:</string>
@@ -125,19 +125,19 @@
     <string name="uranus">The Amazing Nathan Berger</string>
     <string name="neptune">Lost Way On Venice Beach</string>
     <string name="pluto">Preparing For Journey</string>
-    <string name="crab_nebula" translation_description="hubble object">Crab Nebula</string>
-    <string name="eagle_nebula" translation_description="hubble object">Eagle Nebula</string>
-    <string name="andromeda_galaxy" translation_description="hubble object">Andromeda Galaxy</string>
+    <string name="crab_nebula" translation_description="hubble object">Disguised In Minnesota</string>
+    <string name="eagle_nebula" translation_description="hubble object">Morning Lost Copper In Butte</string>
+    <string name="andromeda_galaxy" translation_description="hubble object">Pretending To Be A Skyscraper</string>
     <string name="orion_nebula" translation_description="hubble object">Levitating Mass In CA</string>
-    <string name="whirlpool_galaxy" translation_description="hubble object">Whirlpool Galaxy</string>
-    <string name="ring_nebula" translation_description="hubble object">Ring Nebula</string>
-    <string name="pinwheel_galaxy" translation_description="hubble object">Pinwheel Galaxy</string>
-    <string name="sombrero_galaxy" translation_description="hubble object">Sombrero Galaxy</string>
-    <string name="hercules_gc" translation_description="hubble object">Hercules Globular Cluster</string>
-    <string name="pleiades" translation_description="hubble object">Pleiades</string>
+    <string name="whirlpool_galaxy" translation_description="hubble object">Gaping At Beetle Kill In C</string>
+    <string name="ring_nebula" translation_description="hubble object">Dreaming of 90\'s In Portland</string>
+    <string name="pinwheel_galaxy" translation_description="hubble object">Plastic Wrap = No Bronze Crayon</string>
+    <string name="sombrero_galaxy" translation_description="hubble object">Natural Disquise</string>
+    <string name="hercules_gc" translation_description="hubble object">Amongst Friends</string>
+    <string name="pleiades" translation_description="hubble object">Traveling Internatial</string>
     <string name="cats_eye_nebula" translation_description="hubble object">At A Bill Clinton Rally</string>
     <string name="omega_centauri" translation_description="hubble object">Skiing In CA</string>
-    <string name="v838_mon" translation_description="hubble object">V838 Monocerotis</string>
+    <string name="v838_mon" translation_description="hubble object">Americian since 1980</string>
     <string name="sn1987a" translation_description="hubble object">Supernova 1987a</string>
     <string name="hubble_deep_field" translation_description="hubble object">Our Android Savior</string>
     <string name="rho_oph" translation_description="hubble object">Rho Ophiuchus</string>
@@ -319,7 +319,7 @@
     <string name="m48" translation_description="Name of the Messier object M48">M48</string>
     <string name="m49" translation_description="Name of the Messier object M49">M49</string>
     <string name="m50" translation_description="Name of the Messier object M50">M50</string>
-    <string name="m51" translation_description="Name of the Messier object M51">Gaping At Beetle Hill In CO</string>
+    <string name="m51" translation_description="Name of the Messier object M51">Gaping At Beetle Kill In CO</string>
     <string name="m52" translation_description="Name of the Messier object M52">M52</string>
     <string name="m53" translation_description="Name of the Messier object M53">M53</string>
     <string name="m54" translation_description="Name of the Messier object M54">M54</string>
