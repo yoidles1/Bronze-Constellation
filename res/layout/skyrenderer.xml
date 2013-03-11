@@ -81,7 +81,7 @@
       </RelativeLayout>
     </LinearLayout>
     <!--  The layers/providers button -->
-    <com.google.android.stardroid.views.ButtonLayerView
+    <com.yoidles.android.bronze.views.ButtonLayerView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/layer_buttons_control"
@@ -89,7 +89,7 @@
         android:orientation="vertical"
         android:background="@drawable/sidebarnoelements"
         stardroid:fade_time="500">
-      <com.google.android.stardroid.views.PreferencesButton
+      <com.yoidles.android.bronze.views.PreferencesButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="11px"
@@ -99,7 +99,7 @@
         stardroid:pref_key="source_provider.0"
         stardroid:image_on="@drawable/star_on"
         stardroid:image_off="@drawable/star_off"/>
-       <com.google.android.stardroid.views.PreferencesButton
+       <com.yoidles.android.bronze.views.PreferencesButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="7px"
@@ -109,7 +109,7 @@
         stardroid:pref_key="source_provider.1"
         stardroid:image_on="@drawable/stars_on"
         stardroid:image_off="@drawable/stars_off"/>
-       <com.google.android.stardroid.views.PreferencesButton
+       <com.yoidles.android.bronze.views.PreferencesButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="7px"
@@ -119,7 +119,7 @@
         stardroid:pref_key="source_provider.2"
         stardroid:image_on="@drawable/messier_on"
         stardroid:image_off="@drawable/messier_off" />
-       <com.google.android.stardroid.views.PreferencesButton
+       <com.yoidles.android.bronze.views.PreferencesButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="7px"
@@ -129,7 +129,7 @@
         stardroid:pref_key="source_provider.3"
         stardroid:image_on="@drawable/planet_on"
         stardroid:image_off="@drawable/planet_off" />
-       <com.google.android.stardroid.views.PreferencesButton
+       <com.yoidles.android.bronze.views.PreferencesButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="7px"
@@ -139,7 +139,7 @@
         stardroid:pref_key="source_provider.6"
         stardroid:image_on="@drawable/b_meteor_on"
         stardroid:image_off="@drawable/b_meteor_off" />
-       <com.google.android.stardroid.views.PreferencesButton
+       <com.yoidles.android.bronze.views.PreferencesButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="7px"
@@ -149,7 +149,7 @@
         stardroid:pref_key="source_provider.4"
         stardroid:image_on="@drawable/grid_on"
         stardroid:image_off="@drawable/grid_off" />
-       <com.google.android.stardroid.views.PreferencesButton
+       <com.yoidles.android.bronze.views.PreferencesButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="7px"
@@ -159,7 +159,7 @@
         stardroid:pref_key="source_provider.5"
         stardroid:image_on="@drawable/horizon_on"
         stardroid:image_off="@drawable/horizon_off" />
-       <com.google.android.stardroid.views.PreferencesButton
+       <com.yoidles.android.bronze.views.PreferencesButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="7px"
@@ -169,7 +169,7 @@
         stardroid:pref_key="source_provider.7"
         stardroid:image_on="@drawable/earthmarks_on"
         stardroid:image_off="@drawable/earthmarks_off" />
-       </com.google.android.stardroid.views.ButtonLayerView>
+       </com.yoidles.android.bronze.views.ButtonLayerView>
 
     <!-- This is where we enter the layout logic of the bottom area.
      Both the zoom controls + manual/auto toggle, and time player controls, are here, and
@@ -186,14 +186,14 @@
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
           android:layout_gravity="bottom">
-        <com.google.android.stardroid.views.ButtonLayerView
+        <com.yoidles.android.bronze.views.ButtonLayerView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/layer_manual_auto_toggle"
-            android:layout_gravity="bottom|left"
+            android:layout_gravity="bottom|right"
             android:orientation="vertical"
             stardroid:fade_time="500">
-          <com.google.android.stardroid.views.PreferencesButton
+          <com.yoidles.android.bronze.views.PreferencesButton
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:background="#00000000"
@@ -202,7 +202,7 @@
               stardroid:image_on="@drawable/manualmode"
               stardroid:image_off="@drawable/automaticmode"
               stardroid:default_value="true"/>
-        </com.google.android.stardroid.views.ButtonLayerView>
+        </com.yoidles.android.bronze.views.ButtonLayerView>
         <ZoomControls
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
