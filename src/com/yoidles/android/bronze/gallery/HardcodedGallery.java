@@ -68,7 +68,7 @@ public class HardcodedGallery implements Gallery {
     add(galleryImages, R.drawable.hubble_orion, R.string.orion_nebula, R.string.orion_nebula);
     add(galleryImages, R.drawable.hubble_ultra_deep_field, R.string.hubble_deep_field, R.string.hubble_deep_field);
     add(galleryImages, R.drawable.hubble_v838, R.string.v838_mon, R.string.v838_mon);
-    add(galleryImages, R.drawable.hubble_venus_clouds_tops, R.string.venus, R.string.venus);
+//    add(galleryImages, R.drawable.hubble_venus_clouds_tops, R.string.venus, R.string.venus);
     add(galleryImages, R.drawable.hubble_mars, R.string.mars, R.string.mars);
     add(galleryImages, R.drawable.hubble_jupiter, R.string.jupiter, R.string.jupiter);
     add(galleryImages, R.drawable.hubble_saturn, R.string.saturn, R.string.saturn);

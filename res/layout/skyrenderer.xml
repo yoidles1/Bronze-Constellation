@@ -59,7 +59,7 @@
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
           android:layout_toRightOf="@id/search_icon"
-          android.paddingLeft="10dip"
+
           android:textAppearance="?android:attr/textAppearanceMedium"
           android:layout_marginLeft="2dip" />
         <TextView

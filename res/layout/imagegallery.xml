@@ -7,7 +7,7 @@
   <TextView
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
-      android:layout_marginBottom="20dp"
+      android:layout_marginBottom="40dp"
       android:gravity="center_horizontal"
       android:text="@string/hubble_image_gallery_title"
       android:textStyle="bold" />
@@ -15,7 +15,9 @@
   <Gallery
       android:id="@+id/image_gallery"
       android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-      android:unselectedAlpha = "0.4"
-      android:spacing = "10px"/>
+      android:layout_height="fill_parent"
+      android:layout_gravity="center"
+      android:spacing="20dp"
+      android:unselectedAlpha="0.4" />
+
 </LinearLayout>
